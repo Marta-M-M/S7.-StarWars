@@ -1,0 +1,165 @@
+// cambios 25/02/24
+//Medio solucionado hacerlo responsive y ponerlo más bonito 27/02
+
+// :host {
+//   // display: block; /* Asegura que el componente sea tratado como un bloque */
+//   // // background-color: red; /* Cambiar el color de fondo a rojo */
+//   // // background-image: url('../../assets/img/death-star (1).webp');
+//   // // background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
+//   // // // background-position: left; /* Centrar la imagen en el margen izquierdo */
+//   // // background-position: right center; /* Posicionar la imagen en el margen derecho y centrada verticalmente */
+//   // // clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%); /* Recorta la imagen para mostrar solo la mitad derecha */
+//   // color: white; /* Cambiar el color del texto a blanco para que sea visible sobre el fondo */
+//   height: 100vh;
+// }
+
+// .background-container {
+//   position: relative;
+//   background-image: url('../../assets/img/death-star (1).webp');
+//   background-size: cover;
+//   background-position: left center;
+//   height: 100vh; /* Ajusta la altura según sea necesario */
+// }
+
+// .container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%; /* Utiliza toda la altura de la ventana */
+//   padding: 0 20px; /* Márgenes a ambos lados */
+// }
+
+// .starshipCardInfoAndImage {
+//   display: flex;
+//   align-items: center; /* Alinea verticalmente los elementos */
+//   margin: 0 auto; /*centra horizontalmente creando margen izquierdo y derecho* /*27/02*/
+//   width: 90%;
+//   padding: 15px;
+//   align-items: flex-start;
+
+//   // background-color: grey;
+//     // border: 1px solid #ccc; /* Añade un borde para visualizar mejor la card */
+//     // border-radius: 10px; /* Añade bordes redondeados */
+//     // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+// }
+// .starshipImageContainer {
+//   margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+//   display: block;
+//   // height: 20px;
+//   // width: 20px;
+// }
+// .starshipPicture {
+//   max-width: 100%; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+//   height: auto;
+//   max-height: 100%;
+//   display: block;
+// }
+// .starshipSpecificDataContainer {
+//   // margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+//   flex-grow: 1;
+//   background-color: grey;
+//   border-radius: 10px;
+// }
+
+// .starshipSpecificDataContainer h5 {
+//   text-transform: uppercase;
+// }
+
+
+// //solucionar problema del BOTON!! SALE EN EL MARGEN IZQUIERDO
+
+// .btn.btn-light {
+//   margin-left: 50px; /* Alinea el botón al margen derecho */
+//   // margin-top: 25px; /* Alinea el botón al margen inferior */
+//   // padding-right: 20px;
+// }
+
+// .btn.btn-light{
+
+//   position: fixed; /* Para que el botón se posicione de forma fija en la ventana */ /*aqui ESTA EL PROBLEMA CON EL BOTON HACERLO CON BOOSTRAP?*/
+//   right: 20px; /* Ajusta la distancia del margen derecho según sea necesario */
+//   bottom: 20px;
+//   margin-bottom: 20px;
+
+// }
+
+//Nuevo
+
+.background-container{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.starshipCardInfoAndImage{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.starshipImageContainer img{
+  height: 383px;
+  border-right: 2px solid rgb(250, 222, 75);
+}
+
+.specificData{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: #222;
+  color: #bbb;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 0;
+  height: 383px;
+  overflow: auto;
+}
+
+.specificData p{
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.specificData h6{
+  margin-top: 1px;
+}
+
+.specificData h5, .specificData h6{
+  grid-column: 1 / -1; /* Hace que el nombre y el lorem esten en más columnas */
+}
+
+p, h3, h4 {
+  margin: 2px 0;
+  line-height: 1.2;
+}
+
+.starship-title{
+  text-align: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.btn-back{
+  display: block;
+  background-color: #fade4b;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: fit-content;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+

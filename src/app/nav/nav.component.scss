@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin: 0 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-expand {
+  justify-content: center;
+}
+
+.navbar {
+  border-bottom: 1px solid #777;
+}
+
+.nav-item {
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}

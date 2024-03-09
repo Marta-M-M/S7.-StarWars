@@ -1,0 +1,6 @@
+
+<!-- <app-header></app-header> -->
+<app-nav></app-nav>
+<app-starship-list (shipOnChange)="onChangeShipCard($event)" *ngIf="!showShipCard"></app-starship-list>
+<app-starship-cards (shipOnChange)="onChangeShipCard($event)" *ngIf="showShipCard"></app-starship-cards>
+<app-footer></app-footer>

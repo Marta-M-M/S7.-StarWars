@@ -1,0 +1,38 @@
+/* Estilos para toda la página de registro */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el formulario de registro */
+.register-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+}
+
+.custom-button {
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.custom-button:hover {
+  background-color: #e0a800;
+}
+
+.link-primary {
+  color: #ffd700;
+}
+
+.link-primary:hover {
+  text-decoration: underline;
+}

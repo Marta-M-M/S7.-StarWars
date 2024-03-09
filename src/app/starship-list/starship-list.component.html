@@ -1,0 +1,26 @@
+
+<div class="starshipGeneralContainer">
+  <ul class="starship-list">
+
+    <button type="button" class="col-6 text-start mx-auto m-1 bg-dark text-light p-2"
+      *ngFor="let starship of starshipList; index as i" class="nave" (click)="showSelectShip(i)">
+      <div class="starshipShortDescription">
+        <div class="starshipNameContainer">
+          <p class="starshipName">{{ starshipList[i].name }}</p>
+        </div>
+        <div class="starshipModelContainer">
+          <p class="starshipModel">{{ starshipList[i].model }}</p>
+        </div>
+      </div>
+
+    </button>
+
+
+  </ul>
+  <div class="d-flex justify-content-center">
+    <button *ngIf="(starshipList.length < 37)" type="button" class="btn-ships text-center mt-2 col-3 mb-5"
+      (click)="viewMoreShips()">
+      View more ships
+    </button>
+
+  </div>

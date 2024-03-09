@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <div class="row align-items-flex-start">
+    <nav role="navigation" aria-label="Social media menu" class="social">
+      <div class="social-prompt"></div>
+      <ul>
+        <li class="other social-icon"> <a class="link aw-independent link_footer"
+            href="https://www.tiktok.com/@starwars" target="_blank" rel="noopener noreferrer"> <img
+              src="https://lumiere-a.akamaihd.net/v1/images/tiktok-logo-white_dd1a4867.svg?region=0%2C0%2C150%2C150"
+              class="other-logo " alt="TikTok"> </a> </li>
+        <li class="instagram social-icon"> <a class="link aw-independent link_footer"
+            href="https://www.instagram.com/starwars/" target="_blank" rel="noopener noreferrer"> <img
+              src="https://www.elganchocf.com/wp-content/uploads/2019/03/white-instagram-logo-transparent-background-7740.png"
+              class="other-logo " alt="Instagram"><span class="description"></span> </a> </li>
+        <li class="twitter social-icon"> <a class="link aw-independent link_footer" href="https://twitter.com/starwars"
+            target="_blank" rel="noopener noreferrer"> <img
+              src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?w=826&t=st=1710003047~exp=1710003647~hmac=cd1bb55999515180bca4fd5dd4c7d07a27628753e2c6c4049cbc5ca71b8f6fba"
+              class="other-logo " alt="twitter"><span class="description"></span> </a> </li>
+        <li class="facebook social-icon"> <a class="link aw-independent link_footer"
+            href="https://www.facebook.com/StarWars" target="_blank" rel="noopener noreferrer"> <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-app-round-white-icon.png"
+              class="other-logo " alt="facebook"><span class="description"></span> </a> </li>
+        <li class="youtube social-icon"> <a class="link aw-independent link_footer"
+            href="https://www.youtube.com/user/starwars" target="_blank" rel="noopener noreferrer"> <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"
+              class="other-logo " alt="youtube"><span class="description"></span> </a> </li>
+        <li class="kids social-icon"> <a class="link aw-independent link_footer" href="https://starwarskids.com/"
+            target="_blank" rel="noopener noreferrer"> <img
+              src="https://image.tmdb.org/t/p/original/e7nlRMktELiew5G8jIbm0wUVMMI.png" class="other-logo "
+              alt="youtube"><span class="description"></span> </a> </li>
+
+
+        <!-- Columna derecha para el login y registro -->
+        <div class="col-12 col-md-10 d-flex align-items-center justify-content-md-end">
+          <div class="register ml-auto align-self-start">
+            <!-- Muestra el enlace de Login/Registro si el usuario no está logueado -->
+            <a *ngIf="!isLoggedIn" routerLink="/account/login">
+              <img src="https://sigal.ulloayasociados.com/user.png" alt="Logo" class="logo">Login</a>
+            <a *ngIf="!isLoggedIn" routerLink="/account/register">Sign Up</a>
+
+            <!-- Muestra el enlace de Logout si el usuario está logueado -->
+            <a *ngIf="isLoggedIn" (click)="logout()" class="logout-link">Logout</a>
+          </div>
+        </div>
+      </ul>
+
+      <!-- Columna central para el logo -->
+      <div class="col-12  text-center">
+        <a routerLink="/welcome">
+          <img src="../../assets/img/Star-Wars-symbol whiteletters.jpg" alt="logo-pagina" class="logosw"></a>
+      </div>
+    </nav>
+  </div>
+</div>
+

@@ -1,0 +1,59 @@
+<!-- <p>register page</p> -->
+<div class="modal-container">
+  <div class="register-page">
+  <form [formGroup]="registerForm" (ngSubmit)="register()">
+
+    <div *ngIf="registrationErrorMessage" class="alert alert-danger" role="alert">
+      {{ registrationErrorMessage }}
+    </div>
+
+    <div class="mb-3">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" formControlName="name">
+      <div *ngIf="registerForm.get('name')?.errors" class="text-danger">
+        <small *ngIf="registerForm.get('name')?.errors?.['minlength']">Minimum 3 letters.</small>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="surname">Surename:</label>
+      <input type="text" class="form-control" id="surname" formControlName="surname">
+      <div *ngIf="registerForm.get('surname')?.errors" class="text-danger">
+        <small *ngIf="registerForm.get('surname')?.errors?.['minlength']">Minimum 3 letters.</small>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" formControlName="email">
+      <div *ngIf="registerForm.get('email')?.errors" class="text-danger">
+        <small *ngIf="registerForm.get('email')?.errors?.['email']">Required email format.</small>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" id="password" formControlName="password">
+      <div *ngIf="registerForm.get('password')?.errors" class="text-danger">
+        <small *ngIf="registerForm.get('password')?.errors?.['minlength']">Minimum 6 characters.</small>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" class="form-control" id="confirmPassword" formControlName="confirmPassword">
+      <div *ngIf="registerForm.errors?.['passwordsNotMatch']" class="text-danger">
+        Passwords do not match.
+      </div>
+    </div>
+
+    <!-- Enlace al formulario de login -->
+    <div class="mt-3 login-link-container">
+      Do you have an account? <a (click)="navigateToLogin()" class="link-primary">Login</a>
+    </div>
+
+    <button type="submit" class="custom-button" [disabled]="!registerForm.valid">Sign Up</button>
+  </form>
+
+</div>
+</div>

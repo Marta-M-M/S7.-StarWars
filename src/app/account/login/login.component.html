@@ -1,0 +1,28 @@
+
+<div class="modal-container">
+  <!-- Banner informativo condicional para los usuarios no registrados -->
+  <div *ngIf="showAccessDeniedMessage" class="alert alert-info" role="alert">
+    Sorry, but you cannot view the starships without being registered.
+  </div>
+
+  <form (submit)="login()">
+    <!-- Muestra el mensaje de error si existe -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="password" name="password" required>
+    </div>
+    <button type="submit" class="custom-button">Login</button>
+
+    <div class="mt-3">
+      Don't you have an account? Join us! <a (click)="navigateToRegister()" class="link-primary">SignUp</a>
+    </div>
+  </form>
+</div>

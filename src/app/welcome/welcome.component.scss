@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'StarWarsFont';
+  src: url('../../assets/fonts/star-jedi/Starjout.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'StarWarsFont', sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.carouselExampleControls {
+  // max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.btn-acces {
+  display: block;
+  background-color: #fade4b;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 10px 20px;
+  /* Ajusta el espaciado interno según sea necesario */
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.welcome-container-background {
+  position: relative;
+}
+
+.background-left, .background-right {
+  position: absolute;
+  top: 0%;
+  bottom: -5%;
+  width:50%;
+  background-image: url('../../assets/img/starry-night-sky_1048-11828.avif');
+  background-size: cover;
+  z-index: -1;
+
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+
+.background-left {
+  left: 0;
+}
+
+.background-right {
+  right: 0;
+}
+
+.carouselExampleControls {
+  position: relative;
+  z-index: 2; /* Para colocar el contenido sobre las imágenes de fondo */
+  background-color: black; /* Fondo negro para el contenido */
+  padding: 20px; /* Ajusta según sea necesario */
+  max-width: 80%;
+}
+
+h1, #carouselExampleControls, .btn-acces {
+  position: relative;
+  z-index: 3; // Asegura que los elementos estén por encima de las imágenes de fondo
+}

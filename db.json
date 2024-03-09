@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "maria_sanchez",
+      "email": "maria_sanchez@gmail.com",
+      "password": "contraseña1"
+    },
+    {
+      "id": 2,
+      "username": "juan_rodriguez",
+      "email": "juan_rodriguez@gmail.com",
+      "password": "contraseña2"
+    },
+    {
+      "id": 3,
+      "username": "silvia_gomez",
+      "email": "silvia_gomez@gmail.com",
+      "password": "contraseña3"
+    },
+    {
+      "id": 4,
+      "username": "pepito_grillo",
+      "email": "pepito_grillo@gmail.com",
+      "password": "contraseña4"
+    },
+    {
+      "id": 5,
+      "username": "avatar-aang",
+      "email": "avatar-aang@gmail.com",
+      "password": "contraseña5"
+    },
+    {
+      "id": 6,
+      "username": "sara_lopez",
+      "email": "sara_lopez@gmail.com",
+      "password": "contraseña6"
+    },
+    {
+      "id": 7,
+      "username": "mario_lopez",
+      "email": "mario_lopez@gmail.com",
+      "password": "contraseña7"
+    },
+    {
+      "id": 8,
+      "username": "john-brown",
+      "email": "john-brown@gmail.com",
+      "password": "contraseña8"
+    },
+    {
+      "id": 9,
+      "username": "laura_fraile",
+      "email": "laura_fraile@gmail.com",
+      "password": "contraseña9"
+    },
+    {
+      "id": 10,
+      "username": "toph_beifong",
+      "email": "toph_beifong@gmail.com",
+      "password": "contraseña10"
+    },
+    {
+      "id": 11,
+      "username": "Iroh_lotoblanco",
+      "email": "Iroh_lotoblanco@gmail.com",
+      "password": "contraseña11"
+    },
+    {
+      "id": 12,
+      "username": "usuario12",
+      "email": "usuario12@gmail.com",
+      "password": "contraseña12"
+    },
+    {
+      "email": "maria@gmail.com",
+      "password": "$2a$10$g3oE/SlI3C5tsTQsQXBMMenTTK8S3/2V4zMHmFmohEe/0nTPHfXt.",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 13
+    },
+    {
+      "email": "mariaa@gmail.com",
+      "password": "$2a$10$tmGBjoo1bNkxq0/bZy4pT.jPT7oRotwS6YcMkoUeeGL.PH.vAU/je",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 14
+    },
+    {
+      "email": "hola@hotmail.com",
+      "password": "$2a$10$W.9WZfevqI85x32mmLAMDe/lut56m/hWYc.XytEpAFC5HR279qLZW",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 15
+    },
+    {
+      "email": "holaa@hotmail.com",
+      "password": "$2a$10$vzruvJqAb2whR5HzyM8t1u9YWKl.K6j/o2hcZHItlDJNUi5Z2iDaq",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 16
+    },
+    {
+      "email": "holaaa@hotmail.com",
+      "password": "$2a$10$YQI63s78kgqfKHExNLtYXOqoduhlsXUSFu0FbqlpfhT08u/yMFxl6",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 17
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$qw7xsZMmoWMu8I.bHwctgeiiuVyiYMh.XGJem.E0r7tkfGU/4/6q6",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 18
+    },
+    {
+      "email": "hoola@hotmail.com",
+      "password": "$2a$10$KLuH/E/VMBmRoi6/YRq2yOdKoa3FBwWX5uZgW6VqT/ZQG7ZYE9tHq",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 19
+    },
+    {
+      "email": "hh@hotmail.com",
+      "password": "$2a$10$hOCUMFJ578ZJCnzFce1RqOGnKaiBpRjbHLUlR6vxSiiYLef2Nc/Tq",
+      "username": "pepito",
+      "usersurname": "grilloo",
+      "id": 20
+    },
+    {
+      "email": "aaa@hotmail.com",
+      "password": "$2a$10$lcpu2MBXKikCkKvQ8lIbneUUb6lhacfeOz/2ue4380wBM09BJ6oYy",
+      "username": "maira",
+      "usersurname": "here",
+      "id": 21
+    },
+    {
+      "email": "aa@gmail.com",
+      "password": "$2a$10$gi69/aeKkfMCNbpzCEje2u1w.4KJzdeQGJSsXl9uMVk5z.zYOeyUW",
+      "name": "fds",
+      "surname": "fds",
+      "id": 22
+    },
+    {
+      "email": "www@hotmail.com",
+      "password": "$2a$10$9RD4hCXqC4jyO48IzwvhmOLWK3Q6GOmVtMgEt1R11ry7.98F90rM2",
+      "name": "aaaa",
+      "surname": "aaaa",
+      "id": 23
+    },
+    {
+      "email": "airbeender@gmail.com",
+      "password": "$2a$10$4xUH/9fFwCnlTmgN0mQLXe7.0UIbS.OccEIOick/agg1PubN/5.LG",
+      "username": "avatar",
+      "usersurname": "aang",
+      "id": 24
+    },
+    {
+      "email": "1hola@hotmail.com",
+      "password": "$2a$10$ILUTlj.bv76B3INhVWTRZO5nIomOuzEhfIWYLOgrwHxHRqxBM5Bmy",
+      "username": "holaa",
+      "usersurname": "holaa",
+      "id": 25
+    },
+    {
+      "email": "1hola1@hotmail.com",
+      "password": "$2a$10$71cPy5oVcrUKVMQk7Aq8zOwAprk8mnxBEO3LDImzNuTSIqHE5ZQ.m",
+      "username": "holaa",
+      "usersurname": "holaa",
+      "id": 26
+    },
+    {
+      "email": "f@gmail.com",
+      "password": "$2a$10$qUlb6p2iUjfVAk2TC2hMkuvavtoLDskhRhf/gm25ID05V3xXtNVBq",
+      "username": "fff",
+      "usersurname": "fff",
+      "id": 27
+    },
+    {
+      "email": "a@hotmail.com",
+      "password": "$2a$10$uKypNJGmxovzxBJmzEeBPecg3UYtEaxxzp.Zi/KpzFi9QPyWREt46",
+      "username": "aaa",
+      "usersurname": "aaa",
+      "id": 28
+    },
+    {
+      "email": "r@hotmail.com",
+      "password": "$2a$10$yJUXk1p22KsYgkpNIqnDFuq.cpIqhZCzCKZH9WcBsLPbGA3Z2aQu2",
+      "username": "rrr",
+      "usersurname": "rrr",
+      "id": 29
+    },
+    {
+      "email": "hola1@hotmail.com",
+      "password": "$2a$10$IToS8lVmCK2Oip5VHwD5BOiq9wUjRpVKIVFCOza47p2.aPtugUJi6",
+      "username": "maria",
+      "usersurname": "fernandex",
+      "id": 30
+    },
+    {
+      "email": "p@hotmail.com",
+      "password": "$2a$10$1pY7EPdF4qBSTcZkmQtbFe9j/kXdkH90tqraIS7UIcWDtHyhrNlz2",
+      "username": "ppp",
+      "usersurname": "ppp",
+      "id": 31
+    },
+    {
+      "email": "g@gmail.com",
+      "password": "$2a$10$4GtPgVk/PhmucJkbnQevQuCzWXNYFSyWyzKsfEgBKQX7Kk3ySeOoO",
+      "username": "aaal",
+      "usersurname": "aaaa",
+      "id": 32
+    },
+    {
+      "email": "h@hotmail.com",
+      "password": "$2a$10$dRWfwzS/7M50YHdC7N6uYub.AHzs09ha5SX.sQfO2udo0T4MqwI52",
+      "username": "hol",
+      "usersurname": "hola",
+      "id": 33
+    },
+    {
+      "email": "hola2@hotmail.com",
+      "password": "$2a$10$zGk/7DkLb/WqFMYdrd.DyeFXKe09XWol6L7RHfIO.SpIkkQPgsRBC",
+      "username": "mariaaa",
+      "usersurname": "fernandex",
+      "id": 34
+    },
+    {
+      "email": "q@hotmail.com",
+      "password": "$2a$10$MUks3jIfNwwBaBxtu99RausY/tMOfGohZpnZBknqTwQeLa2VGANLK",
+      "username": "qqq",
+      "usersurname": "qqq",
+      "id": 35
+    },
+    {
+      "email": "pp@hotmail.com",
+      "password": "$2a$10$vjI0oW0xhvwffkFe2dPwSu7y.r2kSTdfWJ5WSJVbEKqYzsWeqNplK",
+      "username": "pepa",
+      "usersurname": "pep",
+      "id": 36
+    },
+    {
+      "email": "ona@hotmail.com",
+      "password": "$2a$10$0VZhVHXoI6lbiKdi.X8UwuGT8czY0f0In7MbdTHEntxuzLxLVudHC",
+      "username": "ONA",
+      "usersurname": "ona",
+      "id": 37
+    },
+    {
+      "email": "fd@hotmail.com",
+      "password": "$2a$10$r21kUa64NLQunHfPCEwD.et7GtwQFeSWJQdFeJgwd04TQ3pkZkRJu",
+      "username": "ffs",
+      "usersurname": "fds",
+      "id": 38
+    },
+    {
+      "email": "Hola@gmail.com",
+      "password": "$2a$10$R1JTlapG6yvvsvMf/iE4B.FPxkDTxueeSxqDdOHjruzKskzuwklRa",
+      "username": "Hola",
+      "usersurname": "Hola",
+      "id": 39
+    },
+    {
+      "email": "pepita@hotmail.com",
+      "password": "$2a$10$i2bsSZKS1VAy0kcUYv55kOxGju/tbC/AMLqQEQXVP3o4nDs2WOwjO",
+      "username": "pepita",
+      "usersurname": "grilla",
+      "id": 40
+    },
+    {
+      "email": "pepitaa@hotmail.com",
+      "password": "$2a$10$s1k1Andtef/dwtwnK63mUOjLVqK7wsilk8oniFpxAsBFed.DZQGs.",
+      "username": "pepito",
+      "usersurname": "aaaa",
+      "id": 41
+    },
+    {
+      "email": "e@hotmail.com",
+      "password": "$2a$10$fLZXZAbGZZHlqSf0Gpc5U.jElZuX8/zR3HdEeLlYDbi.PU5ab0f22",
+      "username": "eee",
+      "usersurname": "eee",
+      "id": 42
+    },
+    {
+      "email": "Ff1@hotmail.com",
+      "password": "$2a$10$pVcvsBp79EoU0v6YOvptzueHdIECgMmAbt19zAHtFBK/CMORu3SBK",
+      "username": "ffff",
+      "usersurname": "ffff",
+      "id": 43
+    },
+    {
+      "email": "Dd1@hotmail.com",
+      "password": "$2a$10$nLH9EDa84pzcycfQlect7ep2/JcuxkA4YEFg.38y90k9ythZ7TD2W",
+      "username": "ddd",
+      "usersurname": "ddd",
+      "id": 44
+    },
+    {
+      "email": "xX5@hotmail.com",
+      "password": "$2a$10$pJ024NuiW/9mfefngvvCKOkAGy7nTWgaW.gleGyL9qleDbHXgkPLq",
+      "username": "xxx",
+      "usersurname": "xxx",
+      "id": 45
+    },
+    {
+      "email": "rw2@gmail.com",
+      "password": "$2a$10$h0IERFBsp6y01/1L6P8X4uAgX5bCCmcBAGUE0y5G9G1138YC9NmEa",
+      "username": "Ron",
+      "usersurname": "weasley",
+      "id": 46
+    },
+    {
+      "email": "rw22@gmail.com",
+      "password": "$2a$10$vUsfB0rQUhFvoIip8VICq.aLajo/AoXptCHACyM0XY/Z84JGiDE2a",
+      "username": "Ron",
+      "usersurname": "weasley",
+      "id": 47
+    },
+    {
+      "email": "o@gmail.com",
+      "password": "$2a$10$uwPICp0sDJgxXaCCr0WvSen5AU9wTbNNPJZbHYu3ieLma1J7mlmRW",
+      "username": "Ooo",
+      "usersurname": "ooo",
+      "id": 48
+    },
+    {
+      "email": "g2@gmail.com",
+      "password": "$2a$10$nY8YPbzgYBjR6IK5uPdx7.AmVgkfnBgZzL8yZC4IXnBMjA4tBHejW",
+      "username": "ggg",
+      "usersurname": "ggg",
+      "id": 49
+    },
+    {
+      "email": "r2@gmail.com",
+      "password": "$2a$10$TAnfU93.lfBZ2GILAkXTx.HDhyAnci5Ece7zYLlZZdz1ytT2Gc43e",
+      "username": "rrr",
+      "usersurname": "rrr",
+      "id": 50
+    },
+    {
+      "email": "g22@gmail.com",
+      "password": "$2a$10$cnA5anx6kIQcDOexcoo95uVEOKvzh1o2JBH0InoEipt89obXSEOX6",
+      "username": "ggg",
+      "usersurname": "ggg",
+      "id": 51
+    }
+  ]
+}

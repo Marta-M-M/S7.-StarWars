@@ -1,0 +1,48 @@
+.footer {
+  background-color: #000;
+  padding: 50px 0;
+}
+
+.footer .container {
+  width: 90%;
+  margin: auto;
+}
+
+.social {
+  text-align: center;
+}
+
+.social-prompt {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social ul li img {
+  width: 25px;
+  height: auto;
+}
+
+.social ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social ul li a:hover .description {
+  color: #ffd700; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+
+.description {
+  font-size: 14px;
+}
+

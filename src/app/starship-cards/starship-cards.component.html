@@ -1,0 +1,80 @@
+<div class="background-container">
+  <h4 class="starship-title">STARSHIP</h4>
+  <div class="starshipCardInfoAndImage">
+    <div class="starshipImageContainer">
+      <img class="starshipPicture h-20" src="{{getImageUrl(index)}}"
+        onerror="this.src='https://starwars-visualguide.com/assets/img/big-placeholder.jpg'" alt="ship image">
+    </div>
+
+    <div class="starshipSpecificDataContainer">
+
+      <div class="specificData">
+        <h5>{{ ship.name }}</h5>
+
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ad numquam repellat recusandae! Repellat
+          expedita ducimus doloribus porro laborum et!</h6>
+        <p>Model: {{ship.model}}</p>
+        <p>MGLT: {{ship.MGLT}}</p>
+        <p>Cost:{{ship.cost_in_credits}} credits</p>
+        <p>Length: {{ship.length}}</p>
+        <p>Crew: {{ship.crew}}</p>
+        <p>Manufacturer: {{ship.manufacturer}}</p>
+      </div>
+
+      <div class="container-button">
+        <div class="boton d-flex justify-content-end mr-2 mb-3">
+          <button (click)="goBackToStarship()" class="btn-back ml-auto">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Lo antiguo funciona  -->
+<!-- <ul class="starship-cards"> -->
+<!-- Si tenemos resultado del observable starshipResults le ponemos el alias resultObject y podemos gestionar la randerización del resultado-->
+<!--si tenemos el resultado del observable starshipResults$, le ponemos el alias que será starshipObject
+        La expresión starshipResults$ | async se utiliza para suscribirse al observable y obtener su valor actual-->
+<!-- <div class="cards-nave" *ngIf="starshipResults$ | async as starshipObject"> -->
+<!--Iteramos sobre el resutlado del observable starshipObject.results y por cada nave se crea un div con la clase .nave-->
+<!-- <div *ngFor="let starship of starshipObject.results; let i = index" class="nave" click="showDetails(i)">
+        <div class="starshipCardsDescription">
+          <div class="starshipCardNameContainer">
+            <p class="starshipCardName">{{ starship.name }}</p>
+          </div>
+          <div class="starshipCardModelContainer">
+            <p class="starshipCardModel">{{ starship.model }}</p>
+          </div>
+
+          <div class="starshipDetails" *ngIf="selectedShipIndex === i">
+          <div class="starshipCardManufacturerContainer">
+            <p class="starshipManufacturerCardModel">{{ starship.manufacturer }}</p>
+          </div> -->
+<!-- otros detalles -->
+
+<!-- </div>
+
+        </div>
+      </div> -->
+<!--Botón siguiente página cargar más naves-->
+<!-- </div>
+  </ul>
+ -->

@@ -1,0 +1,77 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+//imagen
+.logosw {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.social-icons a i{
+  margin-right: 10px; /* Espacio entre los iconos */
+  color: white;
+}
+
+.register a {
+  margin: 10px;
+  color: white;
+}
+
+.logo {
+  width: 25px;
+  margin-right: 8px;
+  height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+
+.social {
+  text-align: center;
+}
+
+.social-prompt {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social ul li {
+  margin-right: 10px;
+}
+
+.social ul li img {
+  width: 25px;
+  height: auto;
+}
+
+.social ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social ul li a:hover .description {
+  color: #ffd700; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+
+.description {
+  font-size: 14px;
+}
+
